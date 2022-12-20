@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    height: 80vh;
+}
+
+.title {
+    font-size: 60px;
+    color: #1877f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub-title {
+    font-size: larger;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.login-box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 20%;
+    box-shadow: 5px 5px 5px rgb(202, 202, 202);
+}
+
+button.btn:nth-child(1) {
+    background-color: #42b72a;
+    border: none;
+    color: white;
+}
+
+button.btn:nth-child(1):hover {
+    background-color: #30871e;
+}
+
+.navbar {
+    box-shadow: 5px 5px 5px rgb(222, 222, 222);
+}
+.card{
+    margin-top: 10%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .header {
+        display: none;
+    }
+
+    .login-box {
+        width: 100%;
+        margin-top: 0%;
+    }
+}
